@@ -1,5 +1,6 @@
 package OOPS;
 import OOPS.Basics.Car;
+import OOPS.Encapsulation.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -15,5 +16,15 @@ public class Test {
 
         myCar.brake(20);
         System.out.println("Current speed after braking: " + myCar.speed);
+
+        // Encapsulation encap = new Encapsulation();
+        // encap.display();
+        Student stud = new Student();
+        stud.setName("Rishabh");
+        stud.setAge(21);
+        stud.setRollNo(7);
+        stud.setGrade('A');
+
+        stud.display();
     }
 }
