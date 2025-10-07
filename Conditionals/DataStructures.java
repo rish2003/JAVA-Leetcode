@@ -1,6 +1,6 @@
 package Conditionals;
 import java.util.HashMap;
-import java.util.Iterator;
+// import java.util.Iterator;
 
 public class DataStructures {
     public void arrayIt(int[] nums){

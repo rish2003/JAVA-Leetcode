@@ -1,3 +1,5 @@
+package Interface;
+
 interface Animal {
     void makeSound();
 }

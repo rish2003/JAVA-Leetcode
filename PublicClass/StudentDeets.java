@@ -1,3 +1,4 @@
+package PublicClass;
 public class StudentDeets {
     String name;
     int age;
