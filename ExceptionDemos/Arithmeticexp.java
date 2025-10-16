@@ -1,4 +1,4 @@
-package Exception;
+package ExceptionDemos;
 
 public class Arithmeticexp {
     public static void main(String[] args) {
