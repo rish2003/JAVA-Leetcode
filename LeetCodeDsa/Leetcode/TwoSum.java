@@ -1,6 +1,6 @@
 package LeetCodeDsa.Leetcode;
 import java.util.Map;
-import java.util.HashMap
+import java.util.HashMap;
 
 public class TwoSum {
     class Solution {
