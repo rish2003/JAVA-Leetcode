@@ -11,6 +11,7 @@ public class ArrayListBasic {
         list.add(5);
         list.add(10);
 
+
         System.out.println(list.get(3));
 
         list.set(3,50); // arr[3] = 50
