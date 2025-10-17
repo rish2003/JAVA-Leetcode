@@ -1,4 +1,5 @@
 package LeetCodeDsa.Array;
+import java.util.Arrays;
 
 public class MaxElem {
     public static void main(String[] args) {
@@ -9,6 +10,9 @@ public class MaxElem {
                 max = arr[i];
             }
         }
+
         System.out.println(max);
+        Arrays.sort(arr);
+        System.out.println(arr);
     }
 }

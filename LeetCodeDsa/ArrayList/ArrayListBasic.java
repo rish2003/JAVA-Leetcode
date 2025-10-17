@@ -1,5 +1,6 @@
 package LeetCodeDsa.ArrayList;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListBasic {
     public static void main(String[] args) {
@@ -19,6 +20,7 @@ public class ArrayListBasic {
         int n = list.size(); // list.length
         list.remove(n-1);
         System.out.println(list);
-        
+
+        Collections.sort(list);
     }
 }

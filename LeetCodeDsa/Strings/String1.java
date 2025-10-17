@@ -32,9 +32,9 @@ public class String1 {
         }
         System.out.println(eman2.toString());
         int num = 121;
-        String numConvert = String.valueOf(num); // converts int to string
+        String numConvert = String.valueOf(num);
+        System.out.println(numConvert);// converts int to string
         String numConv = Integer.toString(num);
-        System.out.println(numConvert);
         System.out.println(numConv);
         String num2 = "212";
         int num2convert = Integer.parseInt(num2);
@@ -46,7 +46,7 @@ public class String1 {
         System.out.println(10+"raghav"+20);
 
         String himan = "Himanshu";
-        String shu = himan.substring(0,3);
+        String shu = himan.substring(0,1); // 0,1 -> H only not Hi
         System.out.println(shu);
     }
 }
