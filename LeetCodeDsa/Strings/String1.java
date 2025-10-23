@@ -48,5 +48,9 @@ public class String1 {
         String himan = "Himanshu";
         String shu = himan.substring(0,1); // 0,1 -> H only not Hi
         System.out.println(shu);
+        char[] himanArr = himan.toCharArray(); // to iterate a string
+        for(int i = 0; i < himanArr.length; i++){
+            System.out.println(himanArr[i] + " ");
+        }
     }
 }
