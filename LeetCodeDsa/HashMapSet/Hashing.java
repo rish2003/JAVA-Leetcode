@@ -13,6 +13,9 @@ public class Hashing {
         System.out.println(map.get("Rishabh"));
         //3.Check If the key exists
         System.out.println(map.containsKey("Raj"));
+        for(String key : map.keySet()){
+            System.out.println(key + "->" + map.get(key));
+        }
         //4.Remove an entry
         map.remove("Aman");
         //5.Iterate through map

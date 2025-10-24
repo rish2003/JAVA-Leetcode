@@ -51,4 +51,4 @@ public class Insertion {
 //4       Take 1, insert at begin  [1,2,4,5,6],3
 //5       Take 3, insert bw 2,4    [1,2,3,4,5,6]
 
-//Imagine Rearraging Cards in your hand
+//Imagine Rearranging Cards in your hand
